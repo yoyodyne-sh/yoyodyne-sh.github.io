@@ -6,8 +6,7 @@ export default defineConfig({
    vite: {
     plugins: [tailwindcss()],
   },
-  // add yur domain name here
-  site: 'https://yourdomain.com',
+  site: 'https://dyne.sh',
   compressHTML: true,
   integrations: [sitemap()]
 });
